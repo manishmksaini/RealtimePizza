@@ -32,7 +32,7 @@ const app = express();
 
 
 const conn = mongoose.connection;
-mongoose.connect("mongodb+srv://manishmksaini:mrmk%40291046@manishmksaini.rw8pnz0.mongodb.net/pizza",{useNewUrlParser: true,})
+mongoose.connect("mongodb+srv://manishmksaini:mrmk%40291046@manishmksaini.rw8pnz0.mongodb.net/pizza")
  .then(() => {
    console.log("connected successfully");
  })
